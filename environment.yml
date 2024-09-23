@@ -1,0 +1,13 @@
+# run: conda env create --file environment.yml
+name: tipe
+dependencies:
+  - python=3.6
+  - pillow
+  - numpy
+  - matplotlib
+  - glob2
+  - pathlib
+  - pip
+  - pip:
+      - pygame
+      - opencv==3.4.13.47
